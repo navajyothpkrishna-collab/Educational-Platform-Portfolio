@@ -9,3 +9,4 @@ The main goal of this project is to:
 Demonstrate front-end development skills
 Apply UI/UX design principles
 Create a professional online presence
+Live Demo: https://navajyothpkrishna-collab.github.io/Educational-Platform-Portfolio/
