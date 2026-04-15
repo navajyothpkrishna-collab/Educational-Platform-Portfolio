@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Endeavour</title>
+    <meta name="description" content="A futuristic educational platform offering advanced courses.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <div class="app-container">
+        <header class="glass-nav">
+            <div class="logo">Academic<span>Endeavour</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#faculty">Faculty</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="cta-nav">Apply Now</button>
+        </header>
+        <main>
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1 class="reveal-text">Shape The <span class="gradient-text">Future</span></h1>
+                    <p class="fade-in-up">Experience education in a new dimension. Explore bleeding-edge courses taught by industry pioneers.</p>
+                    <div class="hero-buttons fade-in-up delay-1">
+                        <a href="#courses" class="btn primary-btn">Explore Courses <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn secondary-btn">Contact Us</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Courses Section -->
+            <section id="courses" class="courses">
+                <div class="section-title">
+                    <h2>Our Programs</h2>
+                    <p>Designed for the innovators of tomorrow</p>
+                </div>
+                <div class="course-grid">
+                    <div class="course-card glass-card">
+                        <div class="course-icon"><i class="fas fa-brain"></i></div>
+                        <h3>IB | IGCSE | O-A | GCSE | AP | ICSE | CBSE🔹Grade 1-12</h3>
+                        <p>Experienced Faculties <br>Strong in syllabus coverage and exam patterns</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 12 Months</span>
+                            <span><i class="fas fa-user-graduate"></i> Advanced</span>
+                        </div>
+                        <button class="btn outline-btn">View Details</button>
+                    </div>
+                    <div class="course-card glass-card">
+                        <div class="course-icon"><i class="fas fa-vr-cardboard"></i></div>
+                        <h3>MBBS | BDS Special Classes</h3>
+                        <p> Experienced Professors and Interns</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 12 months</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                        </div>
+                        <button class="btn outline-btn">View Details</button>
+                    </div>
+                    
+            </section>
+            <!-- Faculty Section -->
+            <section id="faculty" class="faculty">
+                <div class="section-title">
+                    <h2>World-Class Faculty</h2>
+                    <p>Learn directly from the experts shaping the industry</p>
+                </div>
+                <div class="faculty-grid">
+                    <div class="faculty-card glass-card hover-glow">
+                        <div class="faculty-img abstract-bg-1"></div>
+                        <div class="faculty-info">
+                            <h3>Navaneeth P krishna</h3>
+                            <h4>Founder </h4>
+                            <p> </p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faculty-card glass-card hover-glow">
+                        <div class="faculty-img abstract-bg-2"></div>
+                        <div class="faculty-info">
+                            <h3> Vishnu Prakash</h3>
+                            <h4>Co-Founder</h4>
+                            <p> </p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                     
+            </section>
+            <!-- Contact Section -->
+            <section id="contact" class="contact">
+                <div class="contact-container glass-card">
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <p>Ready to start your journey? Reach out to our admissions team.</p>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>101 Cyber Avenue, Silicon Sector, Neo City</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>academic.endeavour.education@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7736910729</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="input-group">
+                            <select id="interest" required>
+                                <option value="" disabled selected>Area of Interest</option>
+                                <option value="ai">IB | IGCSE | O-A | GCSE | AP | ICSE | CBSE</option>
+                                <option value="vr">MBBS|BDS</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" required placeholder=" " rows="4"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn primary-btn submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="logo">Academic<span>Endeavour</span></div>
+                <p>&copy; 2026 Academic Endeavour. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/academic.endeavour/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
